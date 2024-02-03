@@ -1,16 +1,15 @@
 using System;
 
-internal class NewBaseType
+class Program
 {
     public static void Main(string[] args)
     {
+    string fname = "Lan";
+    string lname = "Cruz";
+    int age = 18;
+    Console.WriteLine("Hello I'm"+ " " + fname + " " + lname + " and I'm " + age + " years old");
+  
 
-        string name;
-        name = "Lan";
-        Console.WriteLine(name);
-        name = "Ysraelle";
-        Console.WriteLine(name);
-        name = "Cruz";
-        Console.WriteLine(name);
-    }
+    
+  }
 }
