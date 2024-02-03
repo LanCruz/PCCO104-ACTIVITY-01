@@ -5,9 +5,11 @@ class Program
     public static void Main(string[] args)
     {
     string fname = "Lan";
+    string mname = "E";
     string lname = "Cruz";
     int age = 18;
-    Console.WriteLine("Hello I'm"+ " " + fname + " " + lname + " and I'm " + age + " years old");
+    Console.WriteLine("Hello I'm"+ " " + fname + "" + mname + " " + lname + " and I'm " + age + " years old");
+    
   
 
     
